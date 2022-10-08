@@ -1,0 +1,77 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5,5,103);
+}
+div{
+    background-color: rgb(5,5,103);
+}
+
+.container {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px auto;
+}
+.card{
+    /* border: 1px solid black; */
+    margin: 20px;
+}
+h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    padding: 10px;
+    color: #EEEEEE;
+}
+.score{
+    margin: 20px 0;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    /* border: 1px solid black; */
+    background-color: black;
+    color: #F94F6D;
+}
+.btn-box{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+button{
+    border: 2px solid #EEEEEE;
+    border-radius: 5px;
+    color: #EEEEEE;
+    background-color: rgb(5,5,103);
+    width: 28%;
+    padding: 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+#leaderboard{
+    color: #EEEEEE;
+    font-size: 30px;
+    font-weight: 400;
+}
+#new-game{
+    width:200px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: white;
+    font-weight: bolder;
+    color: rgb(5,5,103);
+}
