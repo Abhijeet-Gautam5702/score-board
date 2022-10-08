@@ -72,6 +72,6 @@ button{
 }
 button:hover{
     background-color: white;
-    font-weight: bolder;
+/*     font-weight: bolder; */
     color: rgb(5,5,103);
 }
